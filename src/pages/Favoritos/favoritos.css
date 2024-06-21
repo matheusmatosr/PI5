@@ -1,0 +1,153 @@
+.meus-filmes {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.meus-filmes h1 {
+    margin-bottom: 14px;
+    font-size: 24px;
+}
+
+.meus-filmes span {
+    font-size: 18px;
+    margin-right: 10px;
+    color: #000;
+}
+
+.meus-filmes ul {
+    width: 80%;
+    padding-left: 0;
+}
+
+.meus-filmes ul li {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 14px;
+    padding: 8px;
+    border: 1px solid #5a5a5a;
+    border-radius: 4px;
+}
+
+.meus-filmes div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.meus-filmes div a {
+    text-decoration: none;
+    color: blue;
+    margin-right: 14px;
+}
+
+.titleAcao {
+    font-size: 18px;
+    margin-right: 10px;
+    color: #000;
+}
+
+.container-grafico {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 150px;
+}
+
+.container-grafico h3 {
+    font-size: 25px;
+    margin-top: 25px;
+    margin-bottom: 20px; 
+}
+
+.graficoRetro {
+    display: flex;
+    position: relative;
+    width: 50%;
+    height: 400px;
+}
+
+.container-dados {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.container-grafico, .container-tabela {
+    flex: 1;
+    margin: 10px;
+}
+
+.container-grafico {
+    max-width: 70%;
+}
+
+.container-tabela {
+    max-width: 30%;
+}
+
+.graficoRetro {
+    width: 100%;
+    height: 400px;
+}
+
+@media screen and (max-width: 600px) {
+    .meus-filmes span {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .meus-filmes div a {
+        margin-right: 10px;
+    }
+
+    .meus-filmes button {
+        width: 40px;
+        font-size: 12px;
+    }
+
+    .container-grafico {
+        max-width: 90%;
+        margin-top: -55px;
+        margin-bottom: -30px;
+    }
+
+    .container-tabela {
+        max-width: 90%;
+        margin-bottom: -25px;
+    }
+
+    .graficoRetro {
+        width: 100%;
+        height: 350px;
+    }
+
+    .container-dados {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .graficoRetro {
+        width: 100%;
+        margin-top: -20px;
+    }
+
+    .container-tabela {
+      width: 100%;
+      margin-top: 50px;
+    }
+
+}

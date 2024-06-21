@@ -1,0 +1,32 @@
+.lista-acoes table {
+  width: 100%; 
+  border-collapse: collapse; 
+}
+
+.lista-acoes thead {
+  color: #000; 
+  font-weight: bold; 
+}
+
+.lista-acoes th {
+  padding: 8px; 
+  text-align: center; 
+  background-color: #000;
+  color: #fff;
+}
+
+.lista-acoes td {
+  padding: 8px; 
+  text-align: left; 
+  color: #000;
+  border: 1px solid #747474;
+  background-color: #fff;
+}
+
+.lista-acoes th:first-child {
+  text-align: center;
+}
+
+.lista-acoes td:first-child {
+  text-align: left; 
+}

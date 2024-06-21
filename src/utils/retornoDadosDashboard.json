@@ -1,0 +1,214 @@
+{
+  "historicoAcoes": [
+    {
+      "data": "2024-06-17T10:00:00",
+      "valorCarteira": 363.75,
+      "retornoDiario": -5.25,
+      "acoes": [
+        {
+          "acao": "NVIDIA Corporation",
+          "sigla": "NVDC34",
+          "valorCota": 15.07,
+          "valorInvestido": 75.35,
+          "retornoDiario": 1.5
+        },
+        {
+          "acao": "Zamp S.A.",
+          "sigla": "ZAMP3",
+          "valorCota": 3.51,
+          "valorInvestido": 0,
+          "retornoDiario": 0
+        },
+        {
+          "acao": "Apple Inc.",
+          "sigla": "AAPL34",
+          "valorCota": 57.68,
+          "valorInvestido": 288.4,
+          "retornoDiario": -6.05
+        },
+        {
+          "acao": "Qualicorp Consultoria e Corretora de Seguros S.A.",
+          "sigla": "QUAL3",
+          "valorCota": 1.75,
+          "valorInvestido": 0,
+          "retornoDiario": 0
+        },
+        {
+          "acao": "iShares Trust - iShares MSCI USA Momentum Factor ETF",
+          "sigla": "BMTU39",
+          "valorCota": 52.58,
+          "valorInvestido": 0,
+          "retornoDiario": 0
+        }
+      ]
+    },
+    {
+      "data": "2024-06-18T17:12:03.333",
+      "valorCarteira": 368.25,
+      "retornoDiario": -5.91,
+      "acoes": [
+        {
+          "acao": "Finor -Ci Fund",
+          "sigla": "FNOR11",
+          "valorCota": 0.9,
+          "valorInvestido": 4.5,
+          "retornoDiario": 0.05
+        },
+        {
+          "acao": "NVIDIA Corporation",
+          "sigla": "NVDC34",
+          "valorCota": 14.83,
+          "valorInvestido": 74.15,
+          "retornoDiario": -2.8
+        },
+        {
+          "acao": "Zamp S.A.",
+          "sigla": "ZAMP3",
+          "valorCota": 3.42,
+          "valorInvestido": 0,
+          "retornoDiario": 0
+        },
+        {
+          "acao": "Apple Inc.",
+          "sigla": "AAPL34",
+          "valorCota": 59.05,
+          "valorInvestido": 295.25,
+          "retornoDiario": 3.6
+        },
+        {
+          "acao": "iShares Trust - iShares MSCI USA Momentum Factor ETF",
+          "sigla": "BMTU39",
+          "valorCota": 53.85,
+          "valorInvestido": 0,
+          "retornoDiario": 0
+        }
+      ]
+    },
+    {
+      "data": "2024-06-19T17:12:49.067",
+      "valorCarteira": 375,
+      "retornoDiario": -10.14,
+      "acoes": [
+        {
+          "acao": "Azevedo & Travassos S.A.",
+          "sigla": "AZEV4",
+          "valorCota": 1.35,
+          "valorInvestido": 6.75,
+          "retornoDiario": -0.5
+        },
+        {
+          "acao": "NVIDIA Corporation",
+          "sigla": "NVDC34",
+          "valorCota": 15.57,
+          "valorInvestido": 77.85,
+          "retornoDiario": -1.2
+        },
+        {
+          "acao": "Apple Inc.",
+          "sigla": "AAPL34",
+          "valorCota": 58.31,
+          "valorInvestido": 291.55,
+          "retornoDiario": -2.35
+        },
+        {
+          "acao": "iShares Trust - iShares MSCI USA Momentum Factor ETF",
+          "sigla": "BMTU39",
+          "valorCota": 53.85,
+          "valorInvestido": 0,
+          "retornoDiario": 0
+        },
+        {
+          "acao": "Finor -Ci Fund",
+          "sigla": "FNOR11",
+          "valorCota": 0.88,
+          "valorInvestido": 4.4,
+          "retornoDiario": -0.95
+        }
+      ]
+    },
+    {
+      "data": "2024-06-20T17:13:26.333",
+      "valorCarteira": 375,
+      "retornoDiario": 0.48,
+      "acoes": [
+        {
+          "acao": "BRF S.A.",
+          "sigla": "BRFS3",
+          "valorCota": 20.14,
+          "valorInvestido": 0,
+          "retornoDiario": 0
+        },
+        {
+          "acao": "NVIDIA Corporation",
+          "sigla": "NVDC34",
+          "valorCota": 16,
+          "valorInvestido": 80,
+          "retornoDiario": 5.7
+        },
+        {
+          "acao": "Apple Inc.",
+          "sigla": "AAPL34",
+          "valorCota": 57.99,
+          "valorInvestido": 289.95,
+          "retornoDiario": 3.2
+        },
+        {
+          "acao": "Finor -Ci Fund",
+          "sigla": "FNOR11",
+          "valorCota": 1.22,
+          "valorInvestido": 6.1,
+          "retornoDiario": 0.6
+        },
+        {
+          "acao": "Azevedo & Travassos S.A.",
+          "sigla": "AZEV4",
+          "valorCota": 1.48,
+          "valorInvestido": 7.4,
+          "retornoDiario": 0.6
+        }
+      ]
+    },
+    {
+      "data": "2024-06-21T17:14:55.78",
+      "valorCarteira": 441.75,
+      "retornoDiario": 3.48,
+      "acoes": [
+        {
+          "acao": "Santos Brasil Participações S.A.",
+          "sigla": "STBP3",
+          "valorCota": 13.35,
+          "valorInvestido": 66.75,
+          "retornoDiario": 1.3
+        },
+        {
+          "acao": "NVIDIA Corporation",
+          "sigla": "NVDC34",
+          "valorCota": 14.52,
+          "valorInvestido": 72.6,
+          "retornoDiario": 0.6
+        },
+        {
+          "acao": "Apple Inc.",
+          "sigla": "AAPL34",
+          "valorCota": 57.45,
+          "valorInvestido": 287.25,
+          "retornoDiario": 0.4
+        },
+        {
+          "acao": "Finor -Ci Fund",
+          "sigla": "FNOR11",
+          "valorCota": 1.22,
+          "valorInvestido": 6.1,
+          "retornoDiario": 1.35
+        },
+        {
+          "acao": "Azevedo & Travassos S.A.",
+          "sigla": "AZEV4",
+          "valorCota": 1.36,
+          "valorInvestido": 6.8,
+          "retornoDiario": -0.1
+        }
+      ]
+    }
+  ]
+}
