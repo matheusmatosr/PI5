@@ -18,14 +18,15 @@ function Home() {
         async function fetchAcoes() {
             try {
                 const data = retornoDadosDashboard;
-                setHistoricoAcoes(data.historicoAcoes || []);
+                const sortedHistoricoAcoes = data.historicoAcoes.sort((a, b) => new Date(a.data) - new Date(b.data));
+                setHistoricoAcoes(sortedHistoricoAcoes || []);
 
-                if (!data.historicoAcoes || data.historicoAcoes.length === 0) {
+                if (!sortedHistoricoAcoes || sortedHistoricoAcoes.length === 0) {
                     setNoActions(true);
                 }
 
                 // Calculando o total do retorno diário
-                const total = data.historicoAcoes.reduce((acc, acao) => acc + acao.retornoDiario, 0);
+                const total = sortedHistoricoAcoes.reduce((acc, acao) => acc + acao.retornoDiario, 0);
                 setTotalRetornoDiario(total);
 
             } catch (error) {

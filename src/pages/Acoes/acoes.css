@@ -42,6 +42,10 @@
     margin: 20px auto;
 }
 
+.table-responsive {
+    overflow-x: auto;
+}
+
 .acoes-table {
     width: 100%;
     border-collapse: collapse;
