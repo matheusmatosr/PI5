@@ -43,7 +43,6 @@ function RetrospectivaAcoes({ acoesSalvas }) {
                                 size: 16
                             }
                         },
-                        reverse: true,
                     },
                     y: {
                         title: {
