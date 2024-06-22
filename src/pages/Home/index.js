@@ -3,7 +3,7 @@ import './home.css';
 import intro from '../../assets/intro.jpg';
 import Footer from '../../componentss/Footer';
 import RetrospectivaAcoes from '../../componentss/Graph/RetrospectivaAcoes';
-import CardLucro from '../../componentss/CardLucro'; 
+// import CardLucro from '../../componentss/CardLucro'; 
 import { Link } from 'react-router-dom';
 import retornoDadosDashboard from '../../utils/retornoDadosDashboard.json';
 
@@ -81,9 +81,9 @@ function Home() {
                     </div>
                 )}
                
-               {showCard && (
+             {/*  {showCard && (
                     <CardLucro retornoDiario={totalRetornoDiario} onClose={() => setShowCard(false)} />
-                )}
+                )} */}
 
             </div>
             <Footer />
