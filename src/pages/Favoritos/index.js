@@ -20,7 +20,6 @@ function Favoritos() {
             try {
                 const data = retornoDadosDashboard;
 
-                // Seleciona apenas as 5 últimas ações baseadas nas datas mais recentes
                 const historicoAcoes = data.historicoAcoes || [];
                 historicoAcoes.sort((a, b) => new Date(b.data) - new Date(a.data));
                 const ultimasAcoes = historicoAcoes.slice(0, 5);
@@ -53,7 +52,6 @@ function Favoritos() {
         );
     }
 
-    // Filtra as ações vendidas das ações salvas
     const acoesSalvasFiltradas = acoesSalvas.map(historico => ({
         ...historico,
         acoes: historico.acoes.filter(acao => !acoesVendidas.find(vendida => vendida.sigla === acao.sigla && vendida.valorVenda !== 0))
@@ -62,7 +60,6 @@ function Favoritos() {
     const labels = acoesSalvasFiltradas.map(historico => new Date(historico.data).toLocaleDateString('pt-BR')) || [];
     const acoesNomes = Array.from(new Set(acoesSalvasFiltradas.flatMap(historico => historico.acoes.map(acao => acao.acao))));
 
-    // Gera os datasets somente para as ações das 5 últimas datas
     const datasets = acoesNomes.slice(0, 5).map(acaoNome => {
         const backgroundColor = `rgba(${Math.floor(Math.random() * 256)}, ${Math.floor(Math.random() * 256)}, ${Math.floor(Math.random() * 256)}, 0.2)`;
         const borderColor = `rgb(${Math.floor(Math.random() * 256)}, ${Math.floor(Math.random() * 256)}, ${Math.floor(Math.random() * 256)})`;
@@ -130,7 +127,7 @@ function Favoritos() {
                     <li key={index}>
                         <span className='titleAcao'>{acaoNome}</span>
                         <div>
-                            <Link to={`/acao/${0}/${acaoNome}`} >Detalhes</Link>
+                            <Link to={`/acao/${index}/${acaoNome}`} >Detalhes</Link>
                         </div>
                     </li>
                 ))}

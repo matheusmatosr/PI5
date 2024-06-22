@@ -21,7 +21,7 @@ function Acoes() {
         const data = retornoDadosDashboard;
         setHistoricoAcoes(data.historicoAcoes || []);
 
-        const acaoSelecionada = data.historicoAcoes[data.historicoAcoes.length - 1].acoes.find(element => element.acao === acaoNome);
+        const acaoSelecionada = data.historicoAcoes.flatMap(h => h.acoes).find(element => element.acao === acaoNome);
         setSelectedAcao(acaoSelecionada);
         setLoading(false);
     }, [acaoNome]);
@@ -36,7 +36,7 @@ function Acoes() {
     }, [selectedAcao]);
 
     const labels = useMemo(() => historicoAcoes.map(historico => new Date(historico.data).toLocaleDateString()), [historicoAcoes]);
-    
+
     const precoAtualData = useMemo(() => historicoAcoes.map(historico => {
         const acao = historico.acoes.find(acao => acao.acao === selectedAcao?.acao);
         return acao ? acao.valorCota : null;
@@ -70,6 +70,7 @@ function Acoes() {
                         size: 16
                     }
                 },
+                reverse: true,
             },
             y: {
                 title: {
@@ -122,10 +123,19 @@ function Acoes() {
 
     const { getTableProps, getTableBodyProps, headerGroups, rows, prepareRow } = tableInstance;
 
-    if (loading || !selectedAcao) {
+    if (loading) {
         return (
             <div className="loading">
-                <h2>Carregando dados da ação...</h2>
+                <h2>Carregando ação...</h2>
+            </div>
+        );
+    }
+
+    if (!selectedAcao) {
+        return (
+            <div className="acao-info">
+                <h1>Ação não encontrada</h1>
+                <Link to="/">Voltar à página inicial</Link>
             </div>
         );
     }

@@ -42,7 +42,8 @@ function RetrospectivaAcoes({ acoesSalvas }) {
                                 weight: 'bold',
                                 size: 16
                             }
-                        }
+                        },
+                        reverse: true,
                     },
                     y: {
                         title: {

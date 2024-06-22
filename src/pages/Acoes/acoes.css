@@ -143,7 +143,11 @@
     }
     
     .table-container {
-        width: 85%;
+        width: 95%;
+    }
+
+    .acao h3 {
+        font-size: 23px;
     }
 
 }
