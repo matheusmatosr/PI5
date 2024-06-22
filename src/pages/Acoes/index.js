@@ -19,9 +19,12 @@ function Acoes() {
 
     useEffect(() => {
         const data = retornoDadosDashboard;
-        setHistoricoAcoes(data.historicoAcoes || []);
+        
+        // Ordenando os dados historicoAcoes por data
+        const sortedHistoricoAcoes = data.historicoAcoes.sort((a, b) => new Date(a.data) - new Date(b.data));
+        setHistoricoAcoes(sortedHistoricoAcoes || []);
 
-        const acaoSelecionada = data.historicoAcoes.flatMap(h => h.acoes).find(element => element.acao === acaoNome);
+        const acaoSelecionada = sortedHistoricoAcoes.flatMap(h => h.acoes).find(element => element.acao === acaoNome);
         setSelectedAcao(acaoSelecionada);
         setLoading(false);
     }, [acaoNome]);
@@ -69,8 +72,7 @@ function Acoes() {
                         weight: 'bold',
                         size: 16
                     }
-                },
-                reverse: true,
+                }
             },
             y: {
                 title: {
