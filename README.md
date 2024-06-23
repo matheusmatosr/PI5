@@ -1,4 +1,5 @@
 # PI 5
+Projeto Interdisciplinar da faculdade, que consiste em um sistema web voltado para o investimento de ações, no qual são selecionadas as 5 melhores ações de 200 para investir.
 
 ## Para rodar o projeto, siga o tutorial abaixo.
 
@@ -6,7 +7,7 @@
 
 1. Clone este repositório
 ```bash
-git clone https://github.com/matheusmatosr/PI5-front.git
+git clone https://github.com/matheusmatosr/PI5.git
 ```
 
 Abra o terminal e faça os seguintes códigos:
