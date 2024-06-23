@@ -18,7 +18,7 @@ function AcoesVendidasTable({ acoesVendidas }) {
                         <tbody>
                             {acoesVendidas.map((acao, index) => (
                                 <tr key={index}>
-                                    <td>R$ {acao.nome}</td>
+                                    <td>{acao.nome}</td>
                                     <td>R${acao.valorCompra}</td>
                                     <td>R${acao.valorVenda}</td>
                                 </tr>
