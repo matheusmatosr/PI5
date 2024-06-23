@@ -1,5 +1,5 @@
 # PI 5
-Projeto Interdisciplinar da faculdade, que consiste em um sistema web voltado para o investimento de ações, no qual são selecionadas as 5 melhores ações de 200 para investir.
+<p>Projeto Interdisciplinar da faculdade, que consiste em um sistema web voltado para o investimento de ações, no qual são selecionadas as 5 melhores ações de 200 para investir.</p>
 
 ## Para rodar o projeto, siga o tutorial abaixo.
 
